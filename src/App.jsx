@@ -27,3 +27,11 @@ function App() {
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/cookies" element={<CookiePage />} />
           </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
