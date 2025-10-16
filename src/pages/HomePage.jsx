@@ -72,9 +72,9 @@ export default function HomePage() {
               Because groceries are the one expense you can actually control.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <FeatureCard icon={Eye} title="Visibility" description="See exactly what drives your costs." />
-              <FeatureCard icon={DollarSign} title="Savings" description="Identify habits and swaps that cut 10-20% off bills." />
-              <FeatureCard icon={Sprout} title="Better Living" description="Link spending to nutrition, waste, and wellbeing." />
+              <FeatureCard icon={Eye} title="Visibility" description="See exactly what drives your costs — down to the item level." />
+              <FeatureCard icon={DollarSign} title="Smarter Spending" description="Spot patterns and opportunities to make more informed choices — no guesswork, just clarity." />
+              <FeatureCard icon={Sprout} title="Better Living" description="Connect your grocery spend to nutrition and food quality — for smarter, more informed shopping" />
             </div>
           </motion.div>
         </div>
@@ -93,7 +93,7 @@ export default function HomePage() {
               How GroceryTrack™ Helps
             </h3>
             <p className="text-lg text-center text-slate-600 max-w-3xl mx-auto mb-12 leading-relaxed">
-              Built by a management accountant who got tired of spreadsheets, GroceryTrack™ turns everyday receipts into professional-grade insights:
+              Built by a qualified accountant who got tired of spreadsheets, GroceryTrack™ turns everyday receipts into professional-grade insights:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <FeatureCard icon={Camera} title="Scan any grocery receipt" description="Paper or digital - we handle it all." />
@@ -184,3 +184,4 @@ export default function HomePage() {
     </div>
   );
 }
+
